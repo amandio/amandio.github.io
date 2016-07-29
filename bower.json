@@ -1,0 +1,21 @@
+{
+  "name": "amandio.github.io",
+  "homepage": "https://github.com/amandio/amandio.github.io",
+  "authors": [
+    "Amândio Nhamande <amandio16@gmail.com>"
+  ],
+  "description": "",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "normalize.css#^4.2.0"
+  }
+}

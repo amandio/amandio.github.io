@@ -1,0 +1,67 @@
+@import '../libs/normalize-css/normalize';
+
+$max-width: 1200px;
+$gutter: em(30);
+$grid-columns: 12;
+
+$text-color: #D8D8D8;
+
+@import 'bourbon';
+@import 'neat';
+
+.container {
+	@include outer-container;
+}
+
+body {
+	font: {
+		size: rem(14);
+		family: Lato, sans-serif;
+	}
+
+	background: {
+		position: top center;
+		repeat: no-repeat;
+		size: cover;
+		color: #232C3B;
+	};
+
+
+	&:before {
+		content: '';
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 1;
+
+		background: {
+			image: url('../img/logo.svg');
+			position: top center;
+			size: contain;
+		}
+	}
+
+	&.not-found:before {
+		background: {
+			image: url('../img/404.png');
+			position: top center;
+			size: contain;
+		}
+	}
+
+	> * {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+@import 'components';
+
+

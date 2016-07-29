@@ -1,0 +1,51 @@
+.top-nav {
+	height: 50px;
+
+	ul {
+		@include clearfix;
+		margin: 0;
+		padding: 7.5px 0;
+		list-style: none;
+		display: block;
+		text-align: center;
+
+		li {
+			float: left;
+			line-height: 15px;
+			margin: 0 17px;
+
+
+			a {
+				display: block;
+				color: $text-color;
+				padding: 10px 3px;
+				position: relative;
+
+				&:after {
+					content: '';
+					height: 1px;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					width: 0;
+					background-color: $text-color;
+
+					@include linear-gradient(to right,#7AFFDE,#44B0FF);
+					@include transition(width 500ms, left 500ms);
+				}
+
+				&:hover {
+					&:after {
+						width: 100%;
+						left: 0;
+					}
+				}
+			}
+
+			&.current {
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1300px" height="800px" viewBox="0 0 1300 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Home</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="109.361049%" y1="50%" x2="2.18172852%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#151A21" offset="0%"></stop>
+            <stop stop-color="#6D7483" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="31.9010407%" x2="100%" y2="31.9010407%" id="linearGradient-2">
+            <stop stop-color="#191E29" offset="0%"></stop>
+            <stop stop-color="#6D7484" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home">
+            <g id="Group-3" transform="translate(590.000000, 257.000000)">
+                <g id="TRIANGLE">
+                    <g id="Group-2" transform="translate(1.000000, 59.000000)">
+                        <path d="M90,30 L117.878506,2.12149441 C119.050175,0.949825403 119.990739,1.35211429 119.979457,2.99921294 L119.020543,143.000787 C119.009197,144.657207 118.116253,147.005643 117.018126,148.255236 L90,179 L90,30 Z" id="Rectangle-8" fill="#232B3A"></path>
+                        <path d="M0,32.9931447 C0,31.3400765 0.947389025,29.052611 2.12149441,27.8785056 L30,-4.26325641e-14 L29,144 L1.91398615,176.690017 C0.85692079,177.965785 0,177.666373 0,176.006855 L0,32.9931447 Z" id="Rectangle-8-Copy" fill="#2D3749" transform="translate(15.000000, 88.739940) scale(-1, 1) translate(-15.000000, -88.739940) "></path>
+                        <polygon id="Rectangle-3" fill="#9298A1" opacity="0.621210354" points="30 32 60 3 60 135 30 163"></polygon>
+                        <polygon id="Rectangle-5" fill="#191D29" points="62 2 90 30.5 90 174 62 141"></polygon>
+                    </g>
+                    <path d="M60,64.5 L60,63.5 L61.5,63 C61.5,63 62.7420099,63.2420099 63,63.5 C63.2420099,63.7420099 63,64.5 63,64.5 L63,143 L60,143 L60,64.5 Z" id="Rectangle-9" fill="url(#linearGradient-1)"></path>
+                    <path d="M60.6396103,103.811183 L100.813371,103.811183 C102.460329,103.811183 103.811183,102.469017 103.811183,100.813371 L103.811183,20.8089955 C103.811183,19.1620378 102.469017,17.8111832 100.813371,17.8111832 L20.8089955,17.8111832 C19.1620378,17.8111832 17.8111832,19.1533495 17.8111832,20.8089955 L17.8111832,61.9827561 L57.641798,61.9827561 C59.297444,61.9827561 60.6396103,63.3336107 60.6396103,64.9805684 L60.6396103,103.811183 Z" id="Combined-Shape" fill="#D8D8D8" transform="translate(60.811183, 60.811183) rotate(-45.000000) translate(-60.811183, -60.811183) "></path>
+                </g>
+                <g id="Group" transform="translate(25.000000, 121.000000)">
+                    <path d="M36,67.1056923 L67.4317947,36.0807482 C68.6126927,34.9151356 69.5481054,35.3093955 69.5208563,36.9761 L68.0491434,126.994119 C68.0220023,128.65422 67.0912375,130.99531 65.9816147,132.210611 L36.5,164.5 L36,67.1056923 Z" id="Rectangle-6" fill="#6D7483"></path>
+                    <path d="M1,35 L34,68 L33,163.682709 L3.90414351,128.314622 C2.85251409,127.036292 1.98528363,124.66081 1.96701304,122.998187 L1,35 Z" id="Rectangle-7" fill="#191D29"></path>
+                    <rect id="Rectangle-10" fill="url(#linearGradient-2)" x="33" y="65" width="4" height="100" rx="2"></rect>
+                    <rect id="Rectangle-2" fill="#D8D8D8" transform="translate(35.355339, 35.355339) rotate(-45.000000) translate(-35.355339, -35.355339) " x="10.3553391" y="10.3553391" width="50" height="50" rx="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
